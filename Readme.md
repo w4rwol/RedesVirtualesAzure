@@ -1,8 +1,9 @@
 # Redes virtuales en Azure
 
+![Alt text](./00.PNG)
 Los pasos para dar respuesta a la siguiente necesidad
 
-(img.01)
+![Alt text](./01.PNG)
 
 
 ## Paso 1. Creación de nuestro grupo de recursos
@@ -13,11 +14,12 @@ Para empezar, debemos crear el grupo de recursos. Para ello, nos dirigimos al po
 
 Para crear la maquina virtual debemos dirigirnos al Marketplace de Azure y buscar Windows Server. Elegimos la primera opcion que nos aparece y procedemos a crear la máquina. Elegimos el plan de Windows Server DataCenter y continuamos creando la máquina.
 
-(imagen 04)
+![Alt text](./04.PNG)
 
  con los siguientes ajustes:
 
-(05 y 06)
+![Alt text](./05.PNG)
+![Alt text](./06.PNG)
 
 ### Subpaso 1
 
@@ -37,10 +39,10 @@ Abriremos puerto 80 (HTTP) y 3389 (RDP)
 Marcamos la opción de "Delete public IP and NIC when VM is deleted."
 El resto de ajustes lo dejamos por defecto.
 En Tag, crearemos etiquetas segun nuestras necesidades. Por ejemplo, Departamento y Marketing.
-(09)
+![Alt text](./09.PNG)
 
 Por ultimo, revisamos y creamos la VM Windows Server 2019. Una vez creada podemos ver que la máquina está funcionanodo e incluso podemos conectar con ella.
-(10)
+![Alt text](./10.PNG)
 
 ## Paso 3 Creación de VM Windows 10
 
@@ -48,7 +50,7 @@ _____________________________
 
 
 Para crear la maquina virtual debemos dirigirnos Resource Groups que hemos creado antes e ir a crear una maquina virtual. Una vez dentro, elegimos Windows 10 y seleccionamos los siguientes ajustes:
-(imagen 11)
+![Alt text](./11.PNG)
 
 
 
@@ -58,7 +60,7 @@ Para crear la maquina virtual debemos dirigirnos Resource Groups que hemos cread
 
 En el apartado de los puertos, debemos marcar el 3398. En Disks, elegiremos SSD Standard. En Networking tenemos que elegir la red que hemos creado antes como Vnet03. Tambien lo relacionaremos con el subnet que hemos visto antes en la creación del Windows Server 2019.
 
-(imagen 12)
+![Alt text](./12.PNG)
 Espacio de direccion 10.0.0.0/20
 Subneting 10.0.0.0/24
 
@@ -75,7 +77,7 @@ En Tag, crearemos etiquetas segun nuestras necesidades. Por ejemplo, Departament
 
 
 Por ultimo, revisamos y creamos la VM Windows 10.
-imagen 13
+![Alt text](./13.PNG)
 Una vez creada podemos ver que la máquina está funcionanodo e incluso podemos conectar con ella.
 
 
