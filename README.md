@@ -1,6 +1,6 @@
 # Redes virtuales en Azure
 
-![Alt text](./00.PNG)
+![Alt text](./img/00.PNG)
 
 Los pasos para dar respuesta a la siguiente necesidad
 
